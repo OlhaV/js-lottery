@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/script.js" type="text/javascript"></script>
+	<title>Lottery</title>
+</head>
+<body>
+	<div class="g-lottery">
+		<div class="g-lottery__winner">
+			<button class="g-lottery__winner_button">New winner</button>
+			<p class="g-lottery__winner_name">Winners: </p> 
+		</div>
+		<form action="" class="b-form">
+		<h2>Registration form</h2>
+			<label for="name" class="b-form__label b-form__label_name">Name*</label>
+			<input name='name' type="text" class="b-form__input b-form__input_name" required>
+			<label for="surname" class="b-form__label b-form__label_surname">Surname*</label>
+			<input name='surname' type="text" class="b-form__input b-form__input_surname" required>
+			<label for="email" class="b-form__label b-form__label_email">Email*</label>
+			<input name='email' type="text" class="b-form__input b-form__input_email" required>
+			<label for="phone" class="b-form__label b-form__label_phone">Phone</label>
+			<input name='phone' placeholder='(___)___-__-__' type="text" class="b-form__input b-form__input_phone">
+			<label for="dateOfBirth" class="b-form__label b-form__label_dateOfBirth">Date of birth</label>
+			<input name='date' type="text" class="b-form__input b-form__input_dateOfBirth">
+			<button class='saveBtn' type="button">Save</button>
+		</form>
+			<table class='b-participants'>
+				<tbody>
+					<tr class='b-participants__row'>
+					    <th>Name</th>
+					    <th>Surname</th>
+					    <th>Email</th>
+					    <th>Phone</th>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	
+</body>
+<script>
+	var l1 = new Lottery();
+</script>
+</html>

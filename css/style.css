@@ -1,0 +1,89 @@
+body, html {
+	width: 100%;
+	background: #ededed;
+}
+
+* {
+	font-size: 18px;
+	font-family: Arial;
+}
+
+.g-lottery {
+	width: 600px;
+	margin: 30px auto;
+    padding: 10px;
+    background: #c6c6c6;
+    box-shadow: 7px 7px 10px #515151;
+    border: 2px solid #b5b3ab;
+    border-radius: 10px;
+}
+
+.b-form > h2 {
+	text-align: center;
+}
+
+.g-lottery__winner {
+    margin: 10px 3px 5px 10px;
+}
+
+.g-lottery__winner_name {
+    display: block;
+    width: 95%;
+    background-color: #fff;
+    padding: 4px;
+    border: 1px solid #000;
+}
+
+.b-form__input {
+	float: right;
+    height: 20px;
+    margin: 5px 0;
+    width: 50%;
+}
+
+.b-form__label {
+	width: 45%;
+	height: 20px;
+    margin: 10px 0 5px 10px;
+    float: left;
+    text-align: left;
+	font-weight: bold;
+}
+
+.saveBtn, .b-form__input {
+	border-radius: 4px;
+}
+
+.b-form__input_dateOfBirth {
+    margin-bottom: 20px;
+}
+
+.saveBtn {	
+	margin: 10px auto;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.correct {
+	-webkit-box-shadow:0 0 0 50px #33cc33 inset; 
+    -webkit-text-fill-color: #333;
+    background-color: rgb(51, 204, 51) !important;
+}
+
+.error {
+	-webkit-box-shadow:0 0 0 50px #ff0000 inset; 
+    -webkit-text-fill-color: #333;
+	background-color: #ff0000 !important; 
+}
+
+.b-participants {	
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ededed;
+}
+
+td, th {
+	border: 1px solid #000;
+}
+
