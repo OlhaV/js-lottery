@@ -89,7 +89,7 @@ function Lottery () {
 	}
 
 	l.saveBtn.onclick = function(){
-		if (l.emailChecked && l.phoneChecked) {
+		if (l.name.value && l.surname.value && l.emailChecked && l.phoneChecked) {
 			l.saveFunc();
 			l.showInfo();
 		} else {
